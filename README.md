@@ -37,7 +37,9 @@ Install dependencies
 Start the server
 
 ```bash
-  npm app.js
+  node app.js
+```
+```bash
   python main.py
 ```
 
