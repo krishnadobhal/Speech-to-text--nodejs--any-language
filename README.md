@@ -21,6 +21,11 @@ Whisper Package
 ```bash
   pip install -U openai-whisper
 ```
+It also requires the command-line tool ffmpeg to be installed on your system, which is available from most package managers:
+
+```bash
+  choco install ffmpeg
+```
 
 Clone the project
 
