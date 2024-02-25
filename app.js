@@ -45,7 +45,6 @@ app.post('/upload', upload.single('audio'), async (req, res) => {
 
         const result = response.data.result.text;
 
-        // Delete the file after processing
         fs.unlinkSync(uploadedFilePath);
 
         res.render("result", { result: result });
